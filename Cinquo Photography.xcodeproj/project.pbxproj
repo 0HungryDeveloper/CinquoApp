@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40600E002750196C0051243F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40600DFF2750196C0051243F /* Home.swift */; };
+		40600E0227501A270051243F /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40600E0127501A270051243F /* Register.swift */; };
+		40600E042750216A0051243F /* MenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40600E032750216A0051243F /* MenuItems.swift */; };
+		40600E06275036340051243F /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40600E05275036340051243F /* AboutUs.swift */; };
+		40600E08275036970051243F /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40600E07275036970051243F /* Courses.swift */; };
+		40735B022752F3BC005D8293 /* VideoTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40735B012752F3BC005D8293 /* VideoTip.swift */; };
+		40A3569827501158007C5B87 /* Cinquo_PhotographyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3569727501158007C5B87 /* Cinquo_PhotographyApp.swift */; };
+		40A3569A27501158007C5B87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3569927501158007C5B87 /* ContentView.swift */; };
+		40A3569C27501159007C5B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A3569B27501159007C5B87 /* Assets.xcassets */; };
+		40A3569F27501159007C5B87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A3569E27501159007C5B87 /* Preview Assets.xcassets */; };
+		40A356A927501159007C5B87 /* Cinquo_PhotographyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A356A827501159007C5B87 /* Cinquo_PhotographyTests.swift */; };
+		40A356B327501159007C5B87 /* Cinquo_PhotographyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A356B227501159007C5B87 /* Cinquo_PhotographyUITests.swift */; };
+		40A356B527501159007C5B87 /* Cinquo_PhotographyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A356B427501159007C5B87 /* Cinquo_PhotographyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40A356A527501159007C5B87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A3568C27501158007C5B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A3569327501158007C5B87;
+			remoteInfo = "Cinquo Photography";
+		};
+		40A356AF27501159007C5B87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A3568C27501158007C5B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A3569327501158007C5B87;
+			remoteInfo = "Cinquo Photography";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40600DFF2750196C0051243F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		40600E0127501A270051243F /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		40600E032750216A0051243F /* MenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItems.swift; sourceTree = "<group>"; };
+		40600E05275036340051243F /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		40600E07275036970051243F /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
+		40735B012752F3BC005D8293 /* VideoTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTip.swift; sourceTree = "<group>"; };
+		40A3569427501158007C5B87 /* Cinquo Photography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cinquo Photography.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A3569727501158007C5B87 /* Cinquo_PhotographyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cinquo_PhotographyApp.swift; sourceTree = "<group>"; };
+		40A3569927501158007C5B87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40A3569B27501159007C5B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40A3569E27501159007C5B87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40A356A427501159007C5B87 /* Cinquo PhotographyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cinquo PhotographyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A356A827501159007C5B87 /* Cinquo_PhotographyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cinquo_PhotographyTests.swift; sourceTree = "<group>"; };
+		40A356AE27501159007C5B87 /* Cinquo PhotographyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cinquo PhotographyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A356B227501159007C5B87 /* Cinquo_PhotographyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cinquo_PhotographyUITests.swift; sourceTree = "<group>"; };
+		40A356B427501159007C5B87 /* Cinquo_PhotographyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cinquo_PhotographyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40A3569127501158007C5B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A356A127501159007C5B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A356AB27501159007C5B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40A3568B27501158007C5B87 = {
+			isa = PBXGroup;
+			children = (
+				40A3569627501158007C5B87 /* Cinquo Photography */,
+				40A356A727501159007C5B87 /* Cinquo PhotographyTests */,
+				40A356B127501159007C5B87 /* Cinquo PhotographyUITests */,
+				40A3569527501158007C5B87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40A3569527501158007C5B87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A3569427501158007C5B87 /* Cinquo Photography.app */,
+				40A356A427501159007C5B87 /* Cinquo PhotographyTests.xctest */,
+				40A356AE27501159007C5B87 /* Cinquo PhotographyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40A3569627501158007C5B87 /* Cinquo Photography */ = {
+			isa = PBXGroup;
+			children = (
+				40A3569727501158007C5B87 /* Cinquo_PhotographyApp.swift */,
+				40735B012752F3BC005D8293 /* VideoTip.swift */,
+				40600E032750216A0051243F /* MenuItems.swift */,
+				40600E07275036970051243F /* Courses.swift */,
+				40600E05275036340051243F /* AboutUs.swift */,
+				40600DFF2750196C0051243F /* Home.swift */,
+				40A3569927501158007C5B87 /* ContentView.swift */,
+				40600E0127501A270051243F /* Register.swift */,
+				40A3569B27501159007C5B87 /* Assets.xcassets */,
+				40A3569D27501159007C5B87 /* Preview Content */,
+			);
+			path = "Cinquo Photography";
+			sourceTree = "<group>";
+		};
+		40A3569D27501159007C5B87 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40A3569E27501159007C5B87 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40A356A727501159007C5B87 /* Cinquo PhotographyTests */ = {
+			isa = PBXGroup;
+			children = (
+				40A356A827501159007C5B87 /* Cinquo_PhotographyTests.swift */,
+			);
+			path = "Cinquo PhotographyTests";
+			sourceTree = "<group>";
+		};
+		40A356B127501159007C5B87 /* Cinquo PhotographyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40A356B227501159007C5B87 /* Cinquo_PhotographyUITests.swift */,
+				40A356B427501159007C5B87 /* Cinquo_PhotographyUITestsLaunchTests.swift */,
+			);
+			path = "Cinquo PhotographyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40A3569327501158007C5B87 /* Cinquo Photography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A356B827501159007C5B87 /* Build configuration list for PBXNativeTarget "Cinquo Photography" */;
+			buildPhases = (
+				40A3569027501158007C5B87 /* Sources */,
+				40A3569127501158007C5B87 /* Frameworks */,
+				40A3569227501158007C5B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cinquo Photography";
+			productName = "Cinquo Photography";
+			productReference = 40A3569427501158007C5B87 /* Cinquo Photography.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40A356A327501159007C5B87 /* Cinquo PhotographyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A356BB27501159007C5B87 /* Build configuration list for PBXNativeTarget "Cinquo PhotographyTests" */;
+			buildPhases = (
+				40A356A027501159007C5B87 /* Sources */,
+				40A356A127501159007C5B87 /* Frameworks */,
+				40A356A227501159007C5B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A356A627501159007C5B87 /* PBXTargetDependency */,
+			);
+			name = "Cinquo PhotographyTests";
+			productName = "Cinquo PhotographyTests";
+			productReference = 40A356A427501159007C5B87 /* Cinquo PhotographyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40A356AD27501159007C5B87 /* Cinquo PhotographyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A356BE27501159007C5B87 /* Build configuration list for PBXNativeTarget "Cinquo PhotographyUITests" */;
+			buildPhases = (
+				40A356AA27501159007C5B87 /* Sources */,
+				40A356AB27501159007C5B87 /* Frameworks */,
+				40A356AC27501159007C5B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A356B027501159007C5B87 /* PBXTargetDependency */,
+			);
+			name = "Cinquo PhotographyUITests";
+			productName = "Cinquo PhotographyUITests";
+			productReference = 40A356AE27501159007C5B87 /* Cinquo PhotographyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40A3568C27501158007C5B87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					40A3569327501158007C5B87 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					40A356A327501159007C5B87 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 40A3569327501158007C5B87;
+					};
+					40A356AD27501159007C5B87 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 40A3569327501158007C5B87;
+					};
+				};
+			};
+			buildConfigurationList = 40A3568F27501158007C5B87 /* Build configuration list for PBXProject "Cinquo Photography" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40A3568B27501158007C5B87;
+			productRefGroup = 40A3569527501158007C5B87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40A3569327501158007C5B87 /* Cinquo Photography */,
+				40A356A327501159007C5B87 /* Cinquo PhotographyTests */,
+				40A356AD27501159007C5B87 /* Cinquo PhotographyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A3569227501158007C5B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A3569F27501159007C5B87 /* Preview Assets.xcassets in Resources */,
+				40A3569C27501159007C5B87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A356A227501159007C5B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A356AC27501159007C5B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A3569027501158007C5B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A3569A27501158007C5B87 /* ContentView.swift in Sources */,
+				40600E002750196C0051243F /* Home.swift in Sources */,
+				40600E08275036970051243F /* Courses.swift in Sources */,
+				40735B022752F3BC005D8293 /* VideoTip.swift in Sources */,
+				40600E042750216A0051243F /* MenuItems.swift in Sources */,
+				40600E06275036340051243F /* AboutUs.swift in Sources */,
+				40600E0227501A270051243F /* Register.swift in Sources */,
+				40A3569827501158007C5B87 /* Cinquo_PhotographyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A356A027501159007C5B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A356A927501159007C5B87 /* Cinquo_PhotographyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A356AA27501159007C5B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A356B327501159007C5B87 /* Cinquo_PhotographyUITests.swift in Sources */,
+				40A356B527501159007C5B87 /* Cinquo_PhotographyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40A356A627501159007C5B87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A3569327501158007C5B87 /* Cinquo Photography */;
+			targetProxy = 40A356A527501159007C5B87 /* PBXContainerItemProxy */;
+		};
+		40A356B027501159007C5B87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A3569327501158007C5B87 /* Cinquo Photography */;
+			targetProxy = 40A356AF27501159007C5B87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40A356B627501159007C5B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40A356B727501159007C5B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40A356B927501159007C5B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cinquo Photography/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hungrystudent.Cinquo-Photography";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40A356BA27501159007C5B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cinquo Photography/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hungrystudent.Cinquo-Photography";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40A356BC27501159007C5B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hungrystudent.Cinquo-PhotographyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinquo Photography.app/Cinquo Photography";
+			};
+			name = Debug;
+		};
+		40A356BD27501159007C5B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hungrystudent.Cinquo-PhotographyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinquo Photography.app/Cinquo Photography";
+			};
+			name = Release;
+		};
+		40A356BF27501159007C5B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hungrystudent.Cinquo-PhotographyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cinquo Photography";
+			};
+			name = Debug;
+		};
+		40A356C027501159007C5B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hungrystudent.Cinquo-PhotographyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cinquo Photography";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40A3568F27501158007C5B87 /* Build configuration list for PBXProject "Cinquo Photography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A356B627501159007C5B87 /* Debug */,
+				40A356B727501159007C5B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A356B827501159007C5B87 /* Build configuration list for PBXNativeTarget "Cinquo Photography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A356B927501159007C5B87 /* Debug */,
+				40A356BA27501159007C5B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A356BB27501159007C5B87 /* Build configuration list for PBXNativeTarget "Cinquo PhotographyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A356BC27501159007C5B87 /* Debug */,
+				40A356BD27501159007C5B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A356BE27501159007C5B87 /* Build configuration list for PBXNativeTarget "Cinquo PhotographyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A356BF27501159007C5B87 /* Debug */,
+				40A356C027501159007C5B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40A3568C27501158007C5B87 /* Project object */;
+}
